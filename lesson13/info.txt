@@ -1,0 +1,37 @@
+1. Интерфейс - спец тип в го, представляющий из себя набор сигнатур методов,
+которые нужно реализовать его имплементации
+
+2. Встраивание интерфейсов (interface embedding)
+
+3. Явной имплементации нет, нужно просто иметь такие же методы
+Утиная типизация (duck typing).
+
+4. Интерфейсное значение внутри хранит информацию о конкретном (неинтерфейсном) типе
+и его значении
+                                            ConcreteType                 ConcreteType
+                                           /                            /
+interfaceValue = nil       interfaceValue                 interfaceValue
+                                           \                            \
+                                            nil                          Concrete value
+
+5. Nil interface: нет ни типа, ни значения. Паникует (падает) при вызове методов
+
+6. Пустой интерфейс: interface{} - содержит любое значение, ибо каждый реализует
+набор из 0 методов
+
+7. Полиморфизм
+
+8. Утверждение типа (type assertion) - пытаемся получить значение конкретного типа
+concreteValue := interfaceValue.(concreteType)
+concreteValue, ok := interfaceValue.(concreteType)
+
+9. Type switches:
+    switch v := interfaceValue.(type) {
+    case concreteType1:
+        // some code
+    case concreteType2:
+        // some code
+    default:
+        v has the same type as interfaceValue
+    }
+
