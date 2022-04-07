@@ -1,0 +1,42 @@
+type chan struct {
+  mx sync.mutex
+  buffer []T
+  readers []Goroutines
+  writers []Goroutines
+}
+
+I. Nil channel
+    1. Создание
+    2. len и cap
+    3. Запись/получение значения: <-
+    4. Закрытие канала: close
+
+II. Unbuffered channel
+    1. Создание
+    2. len и cap
+    3. Запись/получение значения: <-
+
+  unbufferedChannel {
+    len(buffer) = 0
+    readers []Goroutines
+    writers []Goroutines
+  }
+
+    4. Направленность канала
+    5. Закрытие канала: close. Всегда закрывать отправителем
+
+III. Buffered channel
+    1. Создание
+    2. len и cap
+    3. Запись/получение значения: <-
+
+bufferedChannel {
+    len(buffer) > 0;   []
+    readers []Goroutines
+    writers []Goroutines
+  }
+
+    4. Закрытие канала: close. Всегда закрывать отправителем
+
+IV: Проверка на закрытие
+V: For..range
