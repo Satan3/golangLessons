@@ -1,0 +1,10 @@
+Context:
+a) Хранить значения
+b) Сообщать о завершении
+
+1. Background, TODO
+2. With value
+3. With cancel
+4. With deadline/timeout
+
+5. Worker pool
