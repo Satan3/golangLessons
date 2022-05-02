@@ -1,0 +1,4 @@
+1. Chan as promise
+2. chan as mutex
+3. wg with error
+4. err group
