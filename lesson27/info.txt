@@ -1,0 +1,14 @@
+0. Структура пакета
+1. Расположение пакета
+
+2. Типы пакетов
+а) std
+b) external (github)
+c) local
+
+3. Builtin (print, println)
+4. Импорт (alias, _, .)
+
+5. Модификаторы доступа пакетов
+
+6.go get -> GOPATH/src
