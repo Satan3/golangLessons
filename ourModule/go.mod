@@ -1,3 +1,3 @@
-module github.com/Satan3/golangLessons/ourModule
+module ourModule
 
 go 1.18
