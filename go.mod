@@ -1,4 +1,4 @@
-module github.com/Satan3/golangLessons/v2
+module github.com/Satan3/golangLessons
 
 go 1.18
 
