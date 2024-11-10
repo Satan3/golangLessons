@@ -1,0 +1,11 @@
+1. io.Reader / io.Writer
+1.1 Кастомная реализация io.Reader
+1.2 Кастомная реализация io.Writer
+1.3 Аналогии их жизни
+
+2. Работа с файлами (пакет os)
+2.1 Create
+2.2 Open
+2.3 OpenFile
+2.4 ReadFile/WriteFile
+2.5 Закрытие
