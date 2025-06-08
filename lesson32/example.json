@@ -1,0 +1,9 @@
+{
+  "name": "Petya",
+  "age": 25,
+  "married": false,
+  "hobbies": [
+    "programming",
+    "sport"
+  ]
+}

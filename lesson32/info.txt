@@ -1,0 +1,16 @@
+1. Что такое json
+2. Пакет для работы с JSON (encoding/json)
+3. Marshalling и unmarshalling
+4. Экспортируемые поля
+5. Дефолтное поведение
+6. Теги, omitempty и -
+7. Как распарсить JSON с неизвестным форматом? (map[string]any)
+8. Кастомный marshalling и unmarshalling
+9. Json.Encoder/Decoder
+
+
+JSON (англ. JavaScript Object Notation) — текстовый формат обмена данными,
+основанный на JavaScript. Но при этом формат независим от JS и может использоваться в
+любом языке программирования.
+
+Ссылки: https://habr.com/ru/articles/554274/
